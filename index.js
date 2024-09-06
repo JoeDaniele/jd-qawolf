@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Route for Hacker News articles
+// Route for News articles
 app.use('/api', hnRoutes);
 
 const port = 5000;
